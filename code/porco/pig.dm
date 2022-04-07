@@ -284,7 +284,7 @@
 			lobby += "$$<i>! - Pagan </i>$<i>* - Family</i>"
 			newHTML += {"<span style='color:#600; font-weight:bold;'>[lobby]</span>"}
 	if(ishuman(src))
-		newHTML += {"<span class='segment1'>[generateVerbList(list(list("DisguiseVoice", "Disguise Voice"), list("Dance", "Dance"), list("vomit", "Try to Vomit"), list("Pee", "Pee"), list(".asktostop", "Stop")))]</span>"} + {"<span class='segment2'>[generateVerbList(list(list("Notes", "Memories"), list("AddNote", "Add Memories"), list("Pray", "Pray"), list("Clean", "Clean"), list("Masturbate", "Masturbate"), list("Poo", "Poo")), 2)]</span>"}
+		newHTML += {"<span class='segment1'>[generateVerbList(list(list("DisguiseVoice", "Disguise Voice"), list("Dance", "Dance"), list("vomit", "Try to Vomit"), list("Pee", "Pee"), list(".asktostop", "Stop")))]</span>"} + {"<span class='segment2'>[generateVerbList(list(list("Notes", "Memories"), list("AddNote", "Add Memories"), list("Pray", "Pray"), list("Clean", "Clean"), list("Poo", "Poo")), 2)]</span>"}
 	return newHTML
 
 /mob/proc/spiderUpdate()

@@ -106,12 +106,6 @@
 
 	emote("mumble",1)
 
-/mob/living/carbon/human/verb/sexymoan()
-	set name = "Moan"
-	set category = "Emote"
-
-	emote("moan",1)
-
 /mob/living/carbon/human/verb/shrug()
 	set name = "Shrug"
 	set category = "Emote"
@@ -171,9 +165,3 @@
 	set category = "Emote"
 
 	emote("pee",1)
-
-/mob/living/carbon/human/verb/Masturbate()
-	set name = "Masturbate"
-	set category = "Emote"
-
-	emote("masturbate",1,null,0)
